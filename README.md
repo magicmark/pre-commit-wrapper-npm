@@ -8,4 +8,4 @@ $ yarn add pre-commit-wrapper-npm --dev
 
 That's it! You can configure pre-commit as normal, following the [docs](http://pre-commit.com/).
 
-(The pre-commit executable is available though `node_modules/bin/pre-commit`)
+(The pre-commit executable is available via `./node_modules/.bin/pre-commit`)

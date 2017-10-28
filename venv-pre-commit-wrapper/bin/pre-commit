@@ -1,0 +1,4 @@
+this file exists so yarn will create the .bin symlink
+https://github.com/yarnpkg/yarn/issues/3421
+
+(I will be overwritten at install time)

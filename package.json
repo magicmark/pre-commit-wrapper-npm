@@ -12,7 +12,11 @@
     "install": "./lib/index.js"
   },
   "bin": {
-    "pre-commit": "venv-pre-commit-wrapper/bin/pre-commit"
+    "pre-commit": "./venv-pre-commit-wrapper/bin/pre-commit"
   },
-  "files": ["lib/index.js", "venv-pre-commit-wrapper/bin/pre-commit"]
+  "files": [
+    "lib/index.js",
+    "venv-pre-commit-wrapper/bin/pre-commit"
+  ],
+  "dependencies": {}
 }

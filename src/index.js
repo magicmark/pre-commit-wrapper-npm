@@ -14,7 +14,6 @@ function main(appRoot) {
       'bin',
       'pip',
     )} install pre-commit==${PRE_COMMIT_VERSION}`,
-    `${path.join(venv, 'bin', 'pre-commit')} install -f --install-hooks`,
   ];
 
   commands.forEach(command => {
@@ -23,8 +22,7 @@ function main(appRoot) {
 }
 
 if (process.env !== 'test') {
-  // TODO: figure out a more reliable way of getting this path
-  const APP_ROOT = path.join(process.cwd(), '..', '..');
-  console.log(`Installing pre-commit venv to ${APP_ROOT}`);
-  main(APP_ROOT);
+  const appRoot = path.join(process.cwd(), '..', '..');
+  console.log(`Installing pre-commit venv to ${appRoot}`);
+  main(appRoot);
 }

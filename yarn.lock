@@ -1526,9 +1526,6 @@ tar@^2.2.1:
     fstream "^1.0.2"
     inherits "2"
 
-"tmp.M9q8RSIf9M@file:../../../../var/folders/68/4brvn_sn33l8hdvkwsd5wnr80000gn/T/tmp.M9q8RSIf9M":
-  version "1.0.0"
-
 to-fast-properties@^1.0.3:
   version "1.0.3"
   resolved "https://registry.yarnpkg.com/to-fast-properties/-/to-fast-properties-1.0.3.tgz#b83571fa4d8c25b82e231b06e3a3055de4ca1a47"
